@@ -3,15 +3,15 @@ Tarea 02 del Módulo 02 - Desarrollo con Base de datos
 
 ## ¿Qué hacer?
 1) Hacer Fork del repositirio dev-m2.task.02 y clonarlo en su ambiente local.
-2) Abrir Azure Data Studio y conectare a su base correspondiente.
-3) Crear un archivo con extencion .sql donde van a guardar sus scripts y subirlos a GitHub  `creacionTablas.sql`
-4) Eliminar las tablas Municipio y Localidad que se crearon en la tarea uno
-5) Crear las siguentes tablas
+2) Abrir Azure Data Studio y conectarse a su base correspondiente.
+3) Crear un archivo con extensión .sql donde van a guardar sus scripts y subirlos a GitHub  `creacionTablas.sql`
+4) Eliminar las tablas Municipio y Localidad que se crearon en la tarea uno.
+5) Crear las siguientes tablas.
     
-    `Municipio` con los siguientes campos `EntidadID, MunicipipID, Nombre, PoblacionTotal, PoblacionMasculina, PoblacionFemenina`
+    `Municipio` con los siguientes campos `EntidadID, MunicipioID, Nombre, PoblacionTotal, PoblacionMasculina, PoblacionFemenina`
     
-    `Localidad` con los siguientes campos `EntidadID, MunicipipID, LocalidadID, Nombre, Ambito, LatitudDecimal, LongitudDecimal, Altitud, PoblacionTotal, PoblacionMasculina, PoblacionFemenina`
-    
+    `Localidad` con los siguientes campos `EntidadID, MunicipioID, LocalidadID, Nombre, Ambito, LatitudDecimal, LongitudDecimal, Altitud, PoblacionTotal, PoblacionMasculina, PoblacionFemenina`
+
 6) Insertar 30 Municipios de diferentes Entidades federativas
 7) Insertar 30 Localidades de diferentes Municipios
 
